@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Fonts/MontserratAlternates-Regular.ttf);
+}
+
+*{
+    font-family: "Montserrat";
+    padding: 0%;
+    margin: 0%;    
+    text-decoration: none;
+}
+
+.main{
+    background-color:rgb(252, 255, 251);
+    height: 780px;
+}
+
+.Nav{
+    background-color: rgba(0,102,102);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.Nav ul li a{
+    color: rgba(226, 220, 220, 0.767);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: 1s;
+}
+/* ------------Hover Effect In Nav bar----------------- */
+
+.Nav ul li a:hover{
+    background-color: rgba(247, 238, 238, 0.397);
+    border-radius: 20px;
+    color: aliceblue;
+    transform: scale(1);
+}
+/* ________________________________________________ */
+
+.company h1{
+    padding: 2px 10px 2px 10px;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.384);
+    font-size: 60px;
+    color: rgba(255, 253, 251);
+}
+
+/* ----------------Hover effetc---------------- */
+
+.company h1:hover{
+    background-color: rgba(41, 42, 43, 0.164);
+}
+
+.company p:hover{
+    background-color: rgba(41, 42, 43, 0.164);
+}
+
+/* _______________________________________________ */
+
+.company p{
+    background-color: rgba(240, 248, 255, 0.384);
+    padding: 2px 10px 2px 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: rgb(255, 253, 251);
+}
+
+.company{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+.Logo a{
+    color: rgba(226, 220, 220, 0.767);
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+/* --------------------Hover -------------------- */
+
+.Logo a:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 20px;
+    color: aliceblue;
+    padding-right: 20px;
+}
+
+
+.Product{
+    background-color: rgba(184, 179, 179, 0.301);
+    height: 250px;
+}
+.Pd{
+    padding: 50px 0px 0px 40px;
+    border: none;
+    margin-right: 850px;
+}
+
+.Pd h3{
+    text-decoration: underline;
+}
+.Pd h3,p{
+    color: gray;
+}
+
+.Details{
+    background-color: rgba(255, 238, 0, 0.925);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.Details table {
+    padding-left: 100px;
+    /* margin-left: 100px; */
+}
+
+.Details table tr th{
+    padding-left: 100px;  
+}
+
+.Details table tr td{
+    padding-left: 100px;  
+}
+
+.foot{
+    background-color: rgb(221, 59, 113);
+    height: 400px;
+}
+
+.end p{
+    color: aliceblue;
+}
+.icon,.end{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    cursor: pointer;
+}
